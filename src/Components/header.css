@@ -1,0 +1,80 @@
+.bg_img{
+    background-image:url('https://sxcontent9668.azureedge.us/cms-assets/assets/Star6_16_091523_DSC_5926_desktop_a3baa447a8.jpg' ) ;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.navbar_links{
+    display: flex;
+    justify-content: space-evenly;
+    width:50%;
+    padding-top: 11px;
+    font-size: 15px;
+}
+svg{
+    fill: #fff;
+}
+.svg{
+    width: "10px";
+    cursor: pointer;
+}
+.spaceX_Char{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+div{
+    color: white;
+}
+.CgMenu{
+    font-size: 20px;
+}
+.RECENT_LAUNCH{
+    position: absolute;
+    top: 55vh;
+    left: 33px;
+    text-transform: uppercase
+    
+}
+.RECENT_LAUNCH p{
+    font-size: 40px;
+    line-height: 50px;
+    transform: scale(1,1.2);
+}
+.RECENT_LAUNCH button{
+    margin-top: 30px;
+    padding: 16px 25px 16px 25px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    background: none;
+    transition: all 1s linear;
+}
+.RECENT_LAUNCH button:hover{
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+.bg_img1{
+    background-image:url('https://sxcontent9668.azureedge.us/cms-assets/assets/Crew_6_Desktop_9857f5c2f0.jpg' ) ;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bg_img2{
+    background-image:url('https://sxcontent9668.azureedge.us/cms-assets/assets/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg' ) ;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
